@@ -1,0 +1,33 @@
+.body {
+    margin: 0 !important;
+    padding: 0 !important;
+  }
+  .element {
+    height: 1000px;
+    background-color: #ededed;
+    font-size: 45px;
+    border-top: 1px solid #000;
+    padding-top: 55px;
+    padding-left: 10px;
+  }
+  
+  .element.no-padding {
+    padding-top: 0;
+  }
+  
+  .active {
+    color: red !important;
+  }
+  .container{
+    margin-top:100px;
+    border:1px solid red;
+    position: relative;
+    top:100px;
+  }
+  .navbar{
+    opacity: 50%;
+  }
+  p{
+    margin:20px;
+    height:40px;
+  }
